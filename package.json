@@ -1,0 +1,36 @@
+{
+  "name": "invoice-generator",
+  "version": "1.0.0",
+  "description": "Node evaluation task - generate an invoice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"test command executed\"",
+    "dev": "nodemon index.ts",
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abudulwadoodu/invoice-generator.git"
+  },
+  "keywords": [
+    "invoice",
+    "node"
+  ],
+  "author": "wadood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abudulwadoodu/invoice-generator/issues"
+  },
+  "homepage": "https://github.com/abudulwadoodu/invoice-generator#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
